@@ -1,12 +1,12 @@
 //utility.js
 
 const request = require("request-promise");
-const EXTERNAL_API=""; // put url
+const EXTERNAL_API="http://localhost:3000/student/63362587"; // put url
 const accessToken=""; // put access token
 const student = {
-  name: '', // replace with your full name.
+  name: 'Thanaphat Jegwong', // replace with your full name.
   age: 19, // put your age.
-  gender: '', // replace with your gender
+  gender: 'Male', // replace with your gender
   department: 'CPE'
 };
 
