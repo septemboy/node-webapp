@@ -2,10 +2,11 @@
 
 const request = require("request-promise");
 const EXTERNAL_API="http://localhost:3000/student/63362587"; // put url
-const accessToken=""; // put access token
+const accessToken="63362587"; // put access token
 const student = {
+  student_id: 63362587,
   name: 'Thanaphat Jegwong', // replace with your full name.
-  age: 19, // put your age.
+  age: 20, // put your age.
   gender: 'Male', // replace with your gender
   department: 'CPE'
 };
